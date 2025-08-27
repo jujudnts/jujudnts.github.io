@@ -1,0 +1,158 @@
+<!--
+    Copyright (c) 2025 Cezar Gabriel Lima - Todos os Direitos Reservados
+    Copyright (c) 2025 Cezar Gabriel Lima - All Rights Reserved
+    Portfolio website for Julia Dantas
+    https://br.linkedin.com/in/cezar-gabriel
+-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julia Dantas | Portfólio</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="flower flower-1"></div>
+    <div class="flower flower-2"></div>
+    <div class="flower flower-3"></div>
+    <div class="flower flower-4"></div>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#inicio" class="nav-link">Início</a>
+                <a href="#sobre" class="nav-link">Sobre Mim</a>
+                <a href="#projetos" class="nav-link">Projetos</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+            <section id="inicio" class="hero">
+            <div class="container">
+                <h1 data-aos="fade-up">Portfólio</h1>
+                <p class="subtitle" data-aos="fade-up" data-aos-delay="100">Julia Dantas</p>
+            </div>
+        </section>
+
+        <section id="sobre" class="about">
+            <div class="container">
+                <h2 data-aos="fade-up">Sobre Mim</h2>
+                <div class="about-content">
+                    <div class="about-text" data-aos="fade-up" data-aos-delay="100">
+                        <p>Olá! Meu nome é Julia Dantas de Oliveira, tenho 22 anos e sou estudante de Arquitetura e Urbanismo no <a href="https://spo.ifsp.edu.br/arquitetura-e-urbanismo" target="_blank" rel="noopener">IFSP - Instituto Federal de São Paulo</a>.</p>
+                        
+                        <p>Iniciei minha carreira recentemente como estagiária na TV Cultura, onde vivencio todas as etapas de um projeto: desenvolvimento em softwares de modelagem, detalhamento técnico, orçamentos e acompanhamento de montagem com equipes multidisciplinares.</p>
+                        
+                        <p>Gosto de enxergar a cenografia como um universo de infinitas possibilidades para criar e transformar. Nos projetos de arquitetura, me inspira ver que, após a pós-finalização, cada detalhe conta uma história e dá vida ao trabalho realizado.</p>
+                    </div>
+
+                    <div class="skills" data-aos="fade-up" data-aos-delay="200">
+                        <h3>Habilidades e Softwares</h3>
+                        <div class="skills-group" data-aos="fade-up" data-aos-delay="300">
+                            <div class="skill-category">
+                                <h4>Modelagem e visualização</h4>
+                                <ul>
+                                    <li>SketchUp</li>
+                                    <li>AutoCAD</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Desenho técnico e detalhamento</h4>
+                                <ul>
+                                    <li>AutoCAD</li>
+                                    <li>Layout</li>
+                                    <li>Illustrator</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Pós-produção e apresentação</h4>
+                                <ul>
+                                    <li>Photoshop</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Gestão e execução</h4>
+                                <ul>
+                                    <li>Elaboração de orçamentos</li>
+                                    <li>Acompanhamento de obras</li>
+                                    <li>Montagem de cenários</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="projects">
+            <div class="container">
+                <!-- Project cards will be dynamically inserted here -->
+            </div>
+        </section>
+    </main>
+
+    <a href="https://www.linkedin.com/in/julia-dantas-73a584242/" target="_blank" rel="noopener" class="contact-button" data-aos="fade-up">
+        Contate-me <i class="fa-brands fa-linkedin"></i>
+    </a>
+
+    <footer class="footer" data-aos="fade">
+        <div class="container">
+            <div class="footer-content">
+                <p class="copyright">© 2025 Julia Dantas<br>
+                Todos os Direitos Reservados • All Rights Reserved</p>
+                <p class="credits">Desenvolvido por <a href="https://br.linkedin.com/in/cezar-gabriel" target="_blank" rel="noopener">Cezar Lima</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="projectModal" aria-hidden="true">
+        <div class="modal-overlay" tabindex="-1" data-micromodal-close>
+            <div class="modal-container" role="dialog" aria-modal="true">
+                <header class="modal-header">
+                    <button class="modal-close" aria-label="Fechar modal" data-micromodal-close></button>
+                </header>
+                
+                <div class="modal-content">
+                    <div class="modal-gallery">
+                        <div class="gallery-main">
+                            <img src="" alt="" class="modal-image">
+                        </div>
+                        <div class="gallery-thumbs"></div>
+                    </div>
+                    
+                    <div class="modal-info">
+                        <span class="modal-number"></span>
+                        <h2 class="modal-title"></h2>
+                        <p class="modal-location"></p>
+                        <div class="modal-description"></div>
+                        <a href="#" class="btn-download" download>
+                            Baixar PDF do Projeto
+                        </a>
+                    </div>
+                </div>
+
+                <footer class="modal-footer">
+                    <button class="modal-nav prev" aria-label="Projeto anterior">Anterior</button>
+                    <button class="modal-nav next" aria-label="Próximo projeto">Próximo</button>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos-config.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/contact-button.js"></script>
+</body>
+</html>

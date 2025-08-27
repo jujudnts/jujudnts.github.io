@@ -1,0 +1,108 @@
+{
+    "projects": [
+        {
+            "id": "01",
+            "info": {
+                "titulo": "Revitalização - Viaduto Júlio de Mesquita",
+                "descricao": "Revitalização urbana sob o Viaduto Júlio de Mesquita com túnel de pedestres e intervenções artísticas, integrando espaços públicos e memória histórica.",
+                "descricao_completa": "Projeto feito para a disciplina \"Arquitetura da Paisagem 2\", durante o 7º semestre de Arquitetura e Urbanismo. O projeto parte do conceito de memória e conexão, propondo soluções arquitetônicas que resgatam a história local enquanto reconfiguram o espaço urbano para uso coletivo e acessível. O partido arquitetônico se materializa por meio da revitalização da área térrea sob o Viaduto Júlio de Mesquita, com intervenções artísticas e espaços de permanência que valorizam marcos como o Sacolão da Avanhandava, o Memorial Judaico e o córrego Saracura. Complementando essa proposta, um túnel de pedestres ligando a Rua Santo Antônio à Avenida Nove de Julho integra fisicamente os territórios e simbolicamente as camadas históricas da cidade, com o córrego parcialmente aflorado em um percurso sensorial e salas destinadas a atividades recreativas e culturais, reforçando a ideia de um espaço vivo, inclusivo e enraizado na memória urbana. Na Rua Santo Antônio, o projeto inclui casas modulares voltadas a pessoas em situação de rua, promovendo acolhimento e inserção social.",
+                "categoria": "Paisagem",
+                "tags": "Paisagismo",
+                "ferramentas": "AutoCAD, SketchUp, Photoshop",
+                "ano": "2025"
+            },
+            "folder": "viaduto_julio_mesquita",
+            "images": [
+                "explodida.jpg",
+                "corte_perspectiva1.jpg",
+                "corte_perspectiva2.jpg",
+                "corte.jpg",
+                "detalhe.jpg",
+                "planta1.jpg",
+                "planta2.jpg"
+            ]
+        },
+        {
+            "id": "02",
+            "info": {
+                "titulo": "Edifício Residencial",
+                "descricao": "Edifício residencial inspirado nas superquadras de Brasília, com blocos multifamiliares em pilotis livres, integrando áreas urbanas e naturais.",
+                "descricao_completa": "Projeto feito para as disciplinas \"Teoria e Projeto de Arquitetura - Edifício\" e \"Arquitetura da Paisagem 1\", durante o 6º semestre de Arquitetura e Urbanismo. O partido arquitetônico do edifício residencial proposto segue as premissas fundamentais das superquadras de Brasília, uma das maiores contribuições de Lúcio Costa para o urbanismo mundial, e se inspira nos princípios de integração da vida urbana com o espaço natural, a humanização do ambiente e a escala residencial. Busca-se romper com a estrutura residencial convencional, abrindo e transformando os lotes em um amplo bosque entremeado por blocos residenciais multifamiliares de seis pavimentos, em pilotis livres, liberando o chão para uso público indistinto e concebendo uma nova maneira de morar em área urbana, estruturada no que ele denominou de escala residencial ou cotidiana.",
+                "categoria": "Edifícios",
+                "tags": "Habitação",
+                "ferramentas": "ArchiCAD, SketchUp",
+                "ano": "2024"
+            },
+            "folder": "edificio_residencial",
+            "images": [
+                "APAQ6(his).JPG",
+                "APAQ6 HIS 2.jpg",
+                "APAQ6.jpg",
+                "APAQ6(his)1.jpg",
+                "DETALHE APAQ6.jpg",
+                "VISTA 1 APAQ6.jpg"
+            ]
+        },
+        {
+            "id": "03",
+            "info": {
+                "titulo": "Banco",
+                "descricao": "Projeto de banco desenvolvido com compensado naval e flexível, com foco nas proporções, formas e materiais adequados para resistência e adaptação.",
+                "descricao_completa": "Projeto feito para a disciplina \"Desenho do Objeto\", durante o 6º semestre de Arquitetura e Urbanismo. A proposta envolveu desde a concepção inicial até o detalhamento do desenho, considerando proporções, formas e possíveis materiais para o desenvolvimento do produto. Para a execução, foram propostos compensado naval e compensado flexível, escolhidos com base na resistência e capacidade de adaptação às formas propostas.",
+                "categoria": "Objetos",
+                "tags": "Mobiliário",
+                "ferramentas": "SketchUp",
+                "ano": "2024"
+            },
+            "folder": "banco",
+            "images": [
+                "BANCO_REV03.png",
+                "BANCO_REV04.png"
+            ]
+        },
+        {
+            "id": "04",
+            "info": {
+                "titulo": "Lar de Idosos",
+                "descricao": "Centro de convivência e moradia para idosos, integrando áreas de lazer, saúde e bem-estar.",
+                "descricao_completa": "Projeto feito para a disciplina \"Teoria e Projeto de Arquitetura - Funcionalidade\" durante o 4º semestre de Arquitetura e Urbanismo. Para o desenvolvimento do projeto, a ideia inicial foi criar um ambiente de acolhimento e cuidado ao idoso, promovendo a observação da senilidade a partir de uma nova óptica. Com este partido arquitetônico definido, foi determinado que a edificação seria dividida em três módulos principais. Todos seguindo uma mesma linguagem visual baseada em curvas e posicionados de maneira que sua forma remetesse ao olho humano.",
+                "categoria": "Edifícios",
+                "tags": "Funcionalidade",
+                "ferramentas": "ArchiCAD",
+                "ano": "2025"
+            },
+            "folder": "lar_idosos",
+            "images": [
+                "perspectiva.jpg",
+                "vista_1.jpg",
+                "vista_2.jpg",
+                "vista_3.jpg",
+                "vista_4.jpg",
+                "planta_baixa.jpg"
+            ]
+        },
+        {
+            "id": "05",
+            "info": {
+                "titulo": "Conjunto de Edifícios Misto",
+                "descricao": "Conjunto de edifícios misto com térreo livre, plataforma comercial elevada e torres residenciais-corporativas, promovendo espaço público contínuo, integração urbana e leveza arquitetônica.",
+                "descricao_completa": "Projeto feito para a disciplina \"Teoria e Projeto de Arquitetura\", durante o 7º semestre de Arquitetura e Urbanismo. O partido propõe liberar o térreo com um grande vão livre sobre a rua, criando um espaço público contínuo, permeável e ativo. Sobre esse vazio, uma plataforma elevada abriga o programa comercial em volumes laminares com fachadas em ondas, que trazem leveza e movimento à composição. Acima, torres residenciais-corporativas se erguem de forma estratégica, garantindo insolação, ventilação e integração visual com a cidade.",
+                "categoria": "Edifícios",
+                "tags": "Uso Misto, Urbanismo, Sustentabilidade",
+                "ferramentas": "AutoCAD, SketchUp, Photoshop",
+                "ano": "2024"
+            },
+            "folder": "conjunto_edificios_misto",
+            "images": [
+                "VISTA ESQ.jpg",
+                "APAQ7perspectiva.jpg",
+                "APAQ7perspectiva1.jpg",
+                "APAQ7perspectiva2.jpg",
+                "FRONT.jpg",
+                "perspectiva.jpg",
+                "setorizacao.jpg",
+                "VISTA DIR.jpg"
+            ]
+        }
+    ]
+}
